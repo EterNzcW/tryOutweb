@@ -1,0 +1,95 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Arial, sans-serif;
+}
+
+body {
+	background-color: grey;
+}
+
+header { 
+	background-color: #40A3FA;
+	color: white;
+	padding: 20px;
+}
+
+header h2 {
+	font-size: 25px;
+}
+
+.div-utama {
+	max-width: 1080px;
+	height: 100%;
+	margin: auto;
+	background-color: white;
+}
+.navigasi ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: darkblue;
+}
+
+.navigasi li {
+	float: left;
+}
+
+.navigasi li a {
+	color:white;
+	text-align: center;
+	text-decoration: none;
+	padding: 10px 20px;
+	display: block;
+}
+
+.menu-utama {
+	width:75%;
+	float: left;
+	height: 580px;
+	padding: 10px
+}
+
+.menu-kanan {
+	width:25%;
+	float: left;
+	height: 580px;
+	background-color: cyan;
+}
+.menu-kanan h4 {
+	text-decoration:bold;
+}
+
+}
+.menu-utama h3 {
+	margin-top:5px;
+	margin-left:5px;
+	margin-bottom:5px;
+}
+
+.menu-utama p {
+	margin-top:5px;
+	margin-left:5px;
+	margin-bottom:5px;
+	font-size:15px;
+}
+.text p {
+	margin-top:5px;
+	margin-left:5px;
+	margin-bottom:5px;
+	font-weight: bold;
+	font-size:15px;
+}
+.kotak ol {
+	margin-left: 50px;
+	margin-bottom: 10px;
+}
+.div-utama footer {
+	text-align:center;
+	clear: both;
+	background-color: #40A3FA;
+	color:white;
+	padding:10px;
+}
